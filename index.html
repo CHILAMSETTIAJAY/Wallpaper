@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="nav-bar">
+    <div class="nav">
+      <input type="text" class="search">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16" id="search-icon">
+          <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+        </svg>
+    </div>
+  </div>
+  <div class="header">
+    <h1 class="title">
+      HR Wallpapers
+    </h1>
+  </div>
+  <div class="subhead">
+    <a href="index.html" id="home">HOME</a>
+    <a href="wishlist.html" id="categories"> WISHLIST</a>
+  </div>
+  <div class="featured container">
+    <p class="subhead featured-title ">Categories</p>
+    <div class="featured-container">
+      <a href="catdisplay.html" class="fetchtag">
+        <div class="con ds">
+          <img src="./Images/CategoriyPics/Anime.png" alt="" class="featured-pic">
+          <p class="featured-text fetch">
+            Anime
+          </p>
+        </div>
+      </a>
+      <a href="catdisplay.html" class="fetchtag">
+      <div class="con ds">
+        <img src="./Images/CategoriyPics/Nature.jpeg" alt="" class="featured-pic">
+        <p class="featured-text fetch">
+          Nature
+        </p>
+      </div>
+      </a>
+      <a href="catdisplay.html" class="fetchtag">
+      <div class="con ds">
+        <img src="./Images/CategoriyPics/Art.jpg" alt="" class="featured-pic">
+        <p class="featured-text fetch">
+          Arts
+        </p>
+      </div>
+      </a>
+      <a href="catdisplay.html" class="fetchtag">
+      <div class="con ds">
+        <img src="./Images/CategoriyPics/Actors.jpg" alt="" class="featured-pic">
+        <p class="featured-text fetch">
+          Actors
+        </p>
+      </div>
+      </a>
+      <a href="catdisplay.html" class="fetchtag">
+        <div class="con ds">
+          <img src="./Images/CategoriyPics/God.jpg" alt="" class="featured-pic">
+          <p class="featured-text fetch">
+            God
+          </p>
+        </div>
+      </a>
+    </div>
+  </div>
+  <div class="top container">
+    <p class="subhead featured-title ">Top Wallpapers</p>
+    <div class="top-container">
+    </div>
+  </div>
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-storage.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>
